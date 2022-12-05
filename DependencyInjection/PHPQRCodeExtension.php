@@ -40,7 +40,7 @@ class PHPQRCodeExtension extends Extension
      *
      * @return string
      */
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'phpqrcode';
     }

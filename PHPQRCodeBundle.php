@@ -17,7 +17,7 @@ use jonasarts\Bundle\PHPQRCodeBundle\DependencyInjection\PHPQRCodeExtension;
 
 class PHPQRCodeBundle extends Bundle
 {
-    public function getContainerExtension()
+    public function getContainerExtension(): PHPQRCodeExtension
     {
         return new PHPQRCodeExtension();
     }
